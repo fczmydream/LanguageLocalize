@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "TabBarController.h"
+#import "Tools.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [Tools currentAppLanguage];
+    
+    TabBarController *controller = [[TabBarController alloc] init];
+    self.window.rootViewController = controller;
+       
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  LanguageLocalize
+
+  Created by fcz on 2017/6/6.
+  Copyright © 2017年 com.labang. All rights reserved.
+*/
+
+
+"XianYu" = "XianYu";
+"YuTang" = "YuTang";
+"Post" = "Post";
+"Message" = "Message";
+"Me" = "Me";
+"Set" = "Set";
